@@ -15,6 +15,11 @@
 		51009FC821D1F17900D8206E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51009FC721D1F17900D8206E /* main.m */; };
 		51009FD221D1F17900D8206E /* openOrCloseCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51009FD121D1F17900D8206E /* openOrCloseCardTests.m */; };
 		51009FDD21D1F17900D8206E /* openOrCloseCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51009FDC21D1F17900D8206E /* openOrCloseCardUITests.m */; };
+		5100A00821D1FA7600D8206E /* BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51009FFE21D1FA7500D8206E /* BaseCell.m */; };
+		5100A00921D1FA7600D8206E /* openCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5100A00121D1FA7500D8206E /* openCell.m */; };
+		5100A00A21D1FA7600D8206E /* openOrCloseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5100A00321D1FA7600D8206E /* openOrCloseModel.m */; };
+		5100A00B21D1FA7600D8206E /* closeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5100A00421D1FA7600D8206E /* closeCell.m */; };
+		5100A00C21D1FA7600D8206E /* UIView+ML_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5100A00721D1FA7600D8206E /* UIView+ML_Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		51009FD821D1F17900D8206E /* openOrCloseCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openOrCloseCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51009FDC21D1F17900D8206E /* openOrCloseCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openOrCloseCardUITests.m; sourceTree = "<group>"; };
 		51009FDE21D1F17900D8206E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51009FFE21D1FA7500D8206E /* BaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCell.m; sourceTree = "<group>"; };
+		51009FFF21D1FA7500D8206E /* openOrCloseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openOrCloseModel.h; sourceTree = "<group>"; };
+		5100A00021D1FA7500D8206E /* openCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openCell.h; sourceTree = "<group>"; };
+		5100A00121D1FA7500D8206E /* openCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openCell.m; sourceTree = "<group>"; };
+		5100A00221D1FA7600D8206E /* BaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCell.h; sourceTree = "<group>"; };
+		5100A00321D1FA7600D8206E /* openOrCloseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openOrCloseModel.m; sourceTree = "<group>"; };
+		5100A00421D1FA7600D8206E /* closeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = closeCell.m; sourceTree = "<group>"; };
+		5100A00521D1FA7600D8206E /* UIView+ML_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ML_Extension.h"; sourceTree = "<group>"; };
+		5100A00621D1FA7600D8206E /* closeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = closeCell.h; sourceTree = "<group>"; };
+		5100A00721D1FA7600D8206E /* UIView+ML_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ML_Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,16 @@
 		51009FB721D1F17600D8206E /* openOrCloseCard */ = {
 			isa = PBXGroup;
 			children = (
+				5100A00221D1FA7600D8206E /* BaseCell.h */,
+				51009FFE21D1FA7500D8206E /* BaseCell.m */,
+				5100A00621D1FA7600D8206E /* closeCell.h */,
+				5100A00421D1FA7600D8206E /* closeCell.m */,
+				5100A00021D1FA7500D8206E /* openCell.h */,
+				5100A00121D1FA7500D8206E /* openCell.m */,
+				51009FFF21D1FA7500D8206E /* openOrCloseModel.h */,
+				5100A00321D1FA7600D8206E /* openOrCloseModel.m */,
+				5100A00521D1FA7600D8206E /* UIView+ML_Extension.h */,
+				5100A00721D1FA7600D8206E /* UIView+ML_Extension.m */,
 				51009FB821D1F17600D8206E /* AppDelegate.h */,
 				51009FB921D1F17600D8206E /* AppDelegate.m */,
 				51009FBB21D1F17600D8206E /* ViewController.h */,
@@ -262,7 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5100A00921D1FA7600D8206E /* openCell.m in Sources */,
+				5100A00C21D1FA7600D8206E /* UIView+ML_Extension.m in Sources */,
+				5100A00821D1FA7600D8206E /* BaseCell.m in Sources */,
 				51009FBD21D1F17600D8206E /* ViewController.m in Sources */,
+				5100A00A21D1FA7600D8206E /* openOrCloseModel.m in Sources */,
+				5100A00B21D1FA7600D8206E /* closeCell.m in Sources */,
 				51009FC821D1F17900D8206E /* main.m in Sources */,
 				51009FBA21D1F17600D8206E /* AppDelegate.m in Sources */,
 			);
@@ -436,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = openOrCloseCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = openOrCloseCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

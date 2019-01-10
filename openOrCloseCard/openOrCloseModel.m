@@ -1,7 +1,7 @@
 /*
  **
- * @file: ViewController
- * @brief:视图控制器
+ * @file: openOrCloseModel
+ * @brief:数据模型
  * Copyright: Copyright © 2018
  * Company:岚家小红担
  * @author: 岚家小红担
@@ -9,10 +9,8 @@
  * @date: 2018-10-17
  **/
 
-#import <UIKit/UIKit.h>
+#import "openOrCloseModel.h"
 
-@interface ViewController : UIViewController
-
+@implementation openOrCloseModel
 
 @end
-
